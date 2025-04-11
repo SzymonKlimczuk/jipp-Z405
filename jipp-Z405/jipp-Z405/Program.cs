@@ -161,6 +161,3 @@ else
 {
     Console.WriteLine("Ocena Celująca");
 }
-
-
-....
