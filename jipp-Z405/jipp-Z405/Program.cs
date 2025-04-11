@@ -1,9 +1,9 @@
 ﻿Console.WriteLine("Pierwszy program - rozgrzewka \n");
 
 Console.WriteLine("Zadanie 2\n");
-Console.WriteLine("Podaj swoje imię:");
-var name = Console.ReadLine();
-Console.WriteLine("Hello " + name);
+//Console.WriteLine("Podaj swoje imię:");
+//var name = Console.ReadLine();
+//Console.WriteLine("Hello " + name);
 
 Console.WriteLine("\nZadanie 3\n");
 int result = 5 + 9;
@@ -122,16 +122,16 @@ int n3 = 5;
 
 for (int i = 1; i <= n3; i++)
 {
-    for (int j = 1; j <= i; j++)
+    for (int j2 = 1; j2 <= i; j2++)
     {
         Console.Write("* ");
     }
-    Console.WriteLine(); 
+    Console.WriteLine();
 }
 
 
 Console.WriteLine("\nZadanie 5\n");
-int exam = 86; 
+int exam = 86;
 
 if (exam < 0 || exam > 100)
 {
@@ -157,7 +157,46 @@ else if (exam <= 98)
 {
     Console.WriteLine("Ocena Bardzo Dobra");
 }
-else 
+else
 {
     Console.WriteLine("Ocena Celująca");
 }
+
+Console.WriteLine("\nKolekcje\n");
+Console.WriteLine("\nZadanie 1\n");
+
+string[] colors = { "niebieski", "zielony", "żółty", "czerwony" };
+
+Console.WriteLine("Mój pierwszy kolor to: " + colors[0]);
+Console.WriteLine("Mój ostatni kolor to: " + colors[colors.Length - 1]);
+
+Console.WriteLine("\nZadanie 2\n");
+int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    Console.WriteLine("Liczba: " + numbers[i]);
+}
+
+foreach (int number1 in numbers)
+{
+    Console.WriteLine("Liczba: " + number1);
+}
+
+int j = 0;
+while (j < numbers.Length)
+{
+    Console.WriteLine("Liczba: " + numbers[j]);
+    j++;
+}
+
+Console.WriteLine("\nZadanie 3\n");
+
+List<string> fruits = new List<string> { "Pomidor", "Jabłko", "Marchewka", "Banan" };
+
+Console.WriteLine(string.Join(", ", fruits));
+
+fruits.RemoveAt(0);
+fruits.RemoveAt(fruits.Count - 1);
+
+Console.WriteLine(string.Join(", ", fruits));
