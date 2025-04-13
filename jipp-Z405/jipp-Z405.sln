@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jipp-Z405", "jipp-Z405\jipp-Z405.csproj", "{6A339599-B53B-47A3-B732-7194909E337C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDB", "FilmDB\FilmDB.csproj", "{4BE3252F-635F-4AF6-B2B6-5E3A7D0F6957}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6A339599-B53B-47A3-B732-7194909E337C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A339599-B53B-47A3-B732-7194909E337C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A339599-B53B-47A3-B732-7194909E337C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE3252F-635F-4AF6-B2B6-5E3A7D0F6957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE3252F-635F-4AF6-B2B6-5E3A7D0F6957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE3252F-635F-4AF6-B2B6-5E3A7D0F6957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE3252F-635F-4AF6-B2B6-5E3A7D0F6957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
