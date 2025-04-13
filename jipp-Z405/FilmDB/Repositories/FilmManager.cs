@@ -31,7 +31,7 @@ namespace FilmDB.Repositories
         public FilmManager UpdateFilm(FilmModel filmModel)
         {
             _context.Films.Update(filmModel);
-            _context.SaveChanges(true);
+            _context.SaveChanges();
             return this;
         }
 
